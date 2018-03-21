@@ -1,0 +1,1 @@
+SELECT name,(( subject1 + subject2 + subject3)/(95*3) * 100) AS percentage FROM `invoice` where class='2';
